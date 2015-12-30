@@ -1,4 +1,7 @@
 {
+  "name": "qcards",
+  "description": "QCards: An Ionic project",
+  
   "dependencies": {
     "angular2": "2.0.0-beta.0",
     "es6-promise": "3.0.2",
@@ -13,8 +16,6 @@
     "strip-sourcemap-loader": "0.0.1",
     "typescript": "^1.7.3"
   },
-  "name": "qflashcards",
-  "description": "QFlashCards: An Ionic project",
   "cordovaPlugins": [],
   "cordovaPlatforms": [
     "ios",

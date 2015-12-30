@@ -1,5 +1,5 @@
 import {App, Platform} from 'ionic-framework/ionic';
-import {HomePage} from './pages/home/home';
+import {CategoriesPage} from './pages/categories/categories';
 
 @App({
   template: `
@@ -8,10 +8,13 @@ import {HomePage} from './pages/home/home';
   `,
 })
 export class MyApp {
+    public platform: Platform;
+    public root;
+    
   constructor(platform: Platform) {
     this.platform = platform;
     this.initializeApp();
-    this.root = HomePage;
+    this.root = CategoriesPage;
   }
 
   initializeApp() {
